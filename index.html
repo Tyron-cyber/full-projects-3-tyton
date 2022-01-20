@@ -5,17 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="./index.js"></script>
     <title>12 on track</title>
 </head>
 <body>
 
     <!-- navigatie -->
-    <nav id="topNav">
-        <a href="#" class="active">Home</a>
-        <a href="./html-pages/quests.html">Quests</a>
-        <a href="./html-pages/info.html">Info</a>
-    </nav>
+    <!-- https://codemyui.com/mobile-dropdown-menu/ -->
+    <div class="container center " onclick="myFunction(this)" >
+        <div class="bar1"></div>
+        <p class="bar2">menu</p>
+        <div class="bar3"></div>
+        <!-- <i class="fas fa-chevron-down"></i> -->
+    </div>
+      <ul id ="mobile-menu" class="menu-hidden">
+        <li><a href="#"><i class="fas fa-home"></i></a></li>
+        <li><a href="./html-pages/quests.html"><i class="fab fa-elementor"></i></a></li>
+        <li><a href="./html-pages/info.html"><i class="fas fa-info"></i></a></li>
+      </ul>
+    
 
     <!-- Invoeren van naam -->
     <section id="teamNaamBlock">
