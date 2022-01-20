@@ -1,4 +1,5 @@
 * {
+    font-family: Helvetica, sans-serif;
     font-size: 16pt;
     margin: 0%;
 }
@@ -25,10 +26,20 @@ button {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
+.trainWorldLogo img{
+    margin: 5%;
+}
 
+#teamNaamBlock {
+    padding-top: 70%;
+    margin-left: 10%;
+}
+#teamNaamBlock h1{
+    padding-bottom: 1em;
+}
 .bridgeBottomScreen {
-    padding-top: 175vw;
-
+    padding-top: 89vw;
+    margin-left: -15%;
 }
 
 .trainBottomScreen {
