@@ -26,21 +26,20 @@ button {
     -webkit-transform: rotate(-45deg);
 }
 
-
 .bridgeBottomScreen {
-    
-    position: absolute;
+    padding-top: 175vw;
+
 }
 
 .trainBottomScreen {
     position: absolute;
     animation: run 5s ease-in-out infinite;
-
+    padding-bottom: 20%;
 }
 
 @keyframes run {
     0% {
-        left: 0%;
+        left: -50vw;
         bottom: -50%;
 
 
@@ -92,7 +91,7 @@ button {
     }
 
     100% {
-        left: 80%;
+        left: 150VW;
         bottom: -50%;
 
     }
