@@ -1,5 +1,9 @@
-*{
+* {
+    font-family: Helvetica, sans-serif;
     font-size: 16pt;
+
+    margin: 0%;
+
     font-family: Helvetica, sans-serif;
 }
 
@@ -171,24 +175,109 @@ nav ul ul ul li {
 	position: static;
 	/* has to be the same number as the "width" of "nav ul ul li" */ 
 
+
 }
 
 /***************************/
 /*****Invoeren teamnaam*****/
 /***************************/
-button{
+button {
     border: none;
 }
-#submitTeamName{
+
+#submitTeamName {
     background-color: none;
 }
-.arrow{
+
+.arrow {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
 }
-.right{
+
+.right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+}
+.trainWorldLogo img{
+    margin: 5%;
+}
+
+#teamNaamBlock {
+    padding-top: 70%;
+    margin-left: 10%;
+}
+#teamNaamBlock h1{
+    padding-bottom: 1em;
+}
+.bridgeBottomScreen {
+    padding-top: 89vw;
+    margin-left: -15%;
+}
+
+.trainBottomScreen {
+    position: absolute;
+    animation: run 5s ease-in-out infinite;
+    padding-bottom: 20%;
+}
+
+@keyframes run {
+    0% {
+        left: -50vw;
+        bottom: -50%;
+
+
+    }
+
+    10% {
+
+        bottom: +0.5%;
+    }
+
+    20% {
+
+        bottom: -0.5%;
+    }
+
+    30% {
+
+        bottom: +0.5%;
+    }
+
+    40% {
+
+        bottom: -0.5%;
+    }
+
+    50% {
+
+        bottom: +0.5%;
+    }
+
+    60% {
+
+        bottom: -0.5%;
+    }
+
+    70% {
+
+        bottom: +0.5%;
+    }
+
+    80% {
+
+        bottom: -0.5%;
+    }
+
+    90% {
+
+        bottom: +0.5%;
+    }
+
+    100% {
+        left: 150VW;
+        bottom: -50%;
+
+    }
 }
